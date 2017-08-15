@@ -18,7 +18,7 @@ body{
 
 	font-family: 'FuturaHandwritten';
 	color: #333;
-	font-size: 18px;
+	font-size: 17px;
 
 }
 #preloader{
@@ -186,7 +186,7 @@ s{
 	
 	font-family: 'FuturaHandwritten';
 	color: #000;
-	font-size: 24px;
+	font-size: 21px;
 
 	width: 180px;
 	height: 30px;
@@ -277,7 +277,7 @@ s{
 }
 #sandbox_tabs .hitbox{
 	cursor: pointer;
-	font-size: 25px;
+	font-size: 16px;
 	top: 22px;
 }
 #sandbox_tabs .sandbox_page{
@@ -419,7 +419,7 @@ s{
 }
 .character #desc{
 	width: calc(100% - 100px);
-	font-size: 18px;
+	font-size: 16px;
 	height: 114px;
 	right: 0;
 	line-height: 1.2em;
@@ -452,7 +452,7 @@ s{
 }
 .icon_label{
 	display: inline-block;
-	font-size: 20px;
+	font-size: 16.5px;
 	position: relative;
     top: -3px;
 }

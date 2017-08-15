@@ -80,7 +80,7 @@ SLIDES.push({
 		// Button
 		self.add({
 			id:"button", type:"Button", x:385, y:466, 
-			text_id:"outro_1_btn",
+			text_id:"outro_1_btn", size:"long",
 			message:"slideshow/next"
 		});
 

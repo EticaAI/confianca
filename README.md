@@ -1,6 +1,6 @@
 !["A Evolução da Confiança"](https://i.imgur.com/kde760y.png)
 
-#	JOGUE AQUI: [https://eticaai.github.io/confianca/](https://eticaai.github.io/confianca/)
+#	JOGUE AQUI: [https://confianca.etica.ai](https://confianca.etica.ai)
 
 *A Evolução da Confiança* é dedicado ao domínio público, e é feito graças aos muitos recursos Creative Commons e código aberto lá fora! Aqui está uma lista completa de música, sons e código usados:
 

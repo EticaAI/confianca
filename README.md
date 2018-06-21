@@ -1,4 +1,4 @@
-!["A Evolução da Confiança"](https://i.imgur.com/kde760y.png)
+!["A Evolução da Confiança"](assets/evolucao-da-confianca.png)
 
 #	JOGUE AQUI: [https://confianca.etica.ai](https://confianca.etica.ai)
 

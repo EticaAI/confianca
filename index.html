@@ -23,44 +23,54 @@ Many thanks again!
 
 -->
 <!doctype>
-<html>
+<html lang="pt-br">
 <head>
 
 	<!-- TO TRANSLATE: "title", "description" -->
-	<title>The Evolution of Trust</title>
-	<meta name="description" content="an interactive guide to the game theory of why &amp; how we trust each other"/>
+	<title>A Evolução da Confiança</title>
+	<meta name="description" content="um guia interativo para a teoria dos jogos de por que e como nós confiamos uns aos outros"/>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<meta content="utf-8" http-equiv="encoding">
 	<meta charset="utf-8">
 	<link rel="icon" type="image/png" href="favicon.png">
 
 	<!-- TO TRANSLATE: "name", "description" -->
-	<meta itemprop="name" content="The Evolution of Trust">
-	<meta itemprop="description" content="an interactive guide to the game theory of why &amp; how we trust each other">
-	<meta itemprop="image" content="http://ncase.me/trust/social/thumbnail.png">
+	<meta itemprop="name" content="A Evolução da Confiança">
+	<meta itemprop="description" content="um guia interativo para a teoria dos jogos de por que e como nós confiamos uns aos outros">
+	<meta itemprop="image" content="https://confianca.etica.ai/social/thumbnail.png">
 
 	<!-- TO TRANSLATE: "name", "description" -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@ncasenmare">
-	<meta name="twitter:title" content="The Evolution of Trust">
-	<meta name="twitter:description" content="an interactive guide to the game theory of why &amp; how we trust each other">
+	<meta name="twitter:title" content="A Evolução da Confiança">
+	<meta name="twitter:description" content="um guia interativo para a teoria dos jogos de por que e como nós confiamos uns aos outros">
 	<meta name="twitter:creator" content="@ncasenmare">
-	<meta name="twitter:image" content="http://ncase.me/trust/social/thumbnail.png">
+	<meta name="twitter:image" content="https://confianca.etica.ai/social/thumbnail.png">
 
 	<!-- TO TRANSLATE: "name", "description" -->
-	<meta property="og:title" content="The Evolution of Trust">
+	<meta property="og:title" content="A Evolução da Confiança">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://ncase.me/trust/">
-	<meta property="og:image" content="http://ncase.me/trust/social/thumbnail.png">
-	<meta property="og:description" content="an interactive guide to the game theory of why &amp; how we trust each other">
+	<meta property="og:url" content="https://confianca.etica.ai/">
+	<meta property="og:image" content="https://confianca.etica.ai/social/thumbnail.png">
+	<meta property="og:description" content="um guia interativo para a teoria dos jogos de por que e como nós confiamos uns aos outros">
 
 	<!-- Styles -->
-	<link rel="stylesheet" href="css/slides.css">
-	<link rel="stylesheet" href="css/balloon.css">
+	<link rel="stylesheet" href="css/slides.css?v5-2">
+	<link rel="stylesheet" href="css/balloon.css?v5-1">
+	<script>
+	if (window.location.host.indexOf("confianca.etica.ai") !== -1) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+		ga('create', 'UA-104142325-1', 'auto');
+		ga('send', 'pageview');
+	}
+	</script>
 </head>
 <body>
-	<div id="preloader">loading...</div> <!-- TRANSLATE THIS -->
+	<div id="preloader">carregando... </div> <!-- TRANSLATE THIS -->
 	<div style="display:none" id="main">
 		<div id="slideshow_container">
 			<div id="slideshow"></div>
@@ -70,66 +80,90 @@ Many thanks again!
 	<div style="display:none" id="footer">
 		<div id="sound" sound="on" class="no-select">
 			<div id="sound_icon"></div>
-			<div id="sound_on">ON</div> <!-- TRANSLATE THIS -->
-			<div id="sound_off">OFF</div> <!-- TRANSLATE THIS -->
+			<div id="sound_on">Ligado</div> <!-- TRANSLATE THIS -->
+			<div id="sound_off">Desligado</div> <!-- TRANSLATE THIS -->
 		</div>
 		<div id="select"></div>
 
 		<!-- TRANSLATE "title" & "text". Make sure it's less than 112 characters, for Twitter's sake -->
 		<!-- Also, "link" will be changed later to whatever the link for the translated version will be. -->
-		<sharing title="The Evolution of Trust"
-				 text="People no longer trust each other. Why? And how can we fix it? An interactive guide to the game theory of trust:"
-				 link="http://ncase.me/trust/"></sharing>
+		<sharing title="A Evolução da Confiança"
+				 text="As pessoas já não confiam umas nas outras. Por quê? E como podemos corrigir isso? Um guia interativo para a teoria do jogo da confiança:"
+				 link="https://confianca.etica.ai/"></sharing>
 
+		<!-- List of translations thus far! -->
+		<div id="translations">
+			fan-translations:
+			<a href="https://github.com/ncase/trust#how-to-translate-this-thang" target="_blank">(add your own!)</a> |
+			<a href="http://ncase.me/trust/">English</a> |
+			<a href="https://ccamara.github.io/trust/">Español de España</a> |
+			<a href="https://ayowel.github.io/trust/">Français</a> |
+			<a href="https://jkoelling.github.io/trust/">Deutsch</a> |
+			<a href="https://lvdt.github.io/trust/">Italiano</a> |
+			<a href="https://notdotteam.github.io/trust/">Русский</a> |
+			<a href="https://osaatcioglu.github.io/trust/">Türkçe</a> |
+			<a href="https://sin.github.io/trust/">Polski</a> |
+			<a href="http://ncase.me/trust-hu/">Magyar</a> |
+			<a href="https://fbricart.github.io/trust/">Català</a> |
+			<a href="https://github.com/enFactorial/trust">Română</a> |
+			<a href="https://lightspot21.github.io/trust/">ελληνικά</a> |
+			<a href="http://ncase.me/trust-bg/">български език</a> |
+			<a href="https://nghiatt90.github.io/trust-vn/">Tiếng Việt</a> |
+			<a href="https://osori.github.io/trust-ko/">한국어</a> | 
+			<a href="https://sekai.co/trust/">中文（简体）</a> | 
+			<a href="https://audreyt.github.io/trust-zh-TW/">中文（臺灣）</a>	 |
+			<a href="https://hamed.github.io/trust/">فارسی</a> |
+			<a href="https://mudaraljundi.github.io/trust/">العربية</a>
+		</div>
 	</div>
 </body>
 </html>
 
 <!-- Libraries -->
-<script src="js/lib/helpers.js?v5"></script>
-<script src="js/lib/pegasus.js?v5"></script>
+<script src="js/lib/helpers.js?v5-1"></script>
+<script src="js/lib/pegasus.js?v5-1"></script>
 <script>var c_ = {};</script>
-<script src="js/lib/minpubsub.src.js?v5"></script>
-<script src="js/lib/q.js?v5"></script>
-<script src="js/lib/pixi.min.js?v5"></script>
-<script src="js/lib/howler.js?v5"></script>
+<script src="js/lib/minpubsub.src.js?v5-1"></script>
+<script src="js/lib/q.js?v5-1"></script>
+<script src="js/lib/pixi.min.js?v5-1"></script>
+<script src="js/lib/howler.js?v5-1"></script>
 <script>var createjs = window;</script>
-<script src="js/lib/tweenjs-0.6.2.min.js?v5"></script>
+<script src="js/lib/tweenjs-0.6.2.min.js?v5-1"></script>
 <script>Ticker.framerate=60; Ticker.paused=true;</script>
-<script src="js/lib/sharing.js?v5"></script>
+<script src="js/lib/sharing.js?v5-1"></script>
 
 <!-- Core Engine -->
-<script src="js/core/Loader.js?v5"></script>
-<script src="js/core/Slideshow.js?v5"></script>
-<script src="js/core/SlideSelect.js?v5"></script>
-<script src="js/core/Button.js?v5"></script>
-<script src="js/core/TextBox.js?v5"></script>
-<script src="js/core/Words.js?v5"></script>
-<script src="js/core/IncDecNumber.js?v5"></script>
-<script src="js/core/Slider.js?v5"></script>
-<script src="js/core/Scratcher.js?v5"></script>
-<script src="js/core/Background.js?v5"></script>
-<script src="js/core/ImageBox.js?v5"></script>
-<script src="js/core/PayoffsUI.js?v5"></script>
+<script src="js/core/Loader.js?v5-1"></script>
+<script src="js/core/Slideshow.js?v5-1"></script>
+<script src="js/core/SlideSelect.js?v5-1"></script>
+<script src="js/core/Button.js?v5-1"></script>
+<script src="js/core/TextBox.js?v5-1"></script>
+<script src="js/core/Words.js?v5-1"></script>
+<script src="js/core/IncDecNumber.js?v5-1"></script>
+<script src="js/core/Slider.js?v5-1"></script>
+<script src="js/core/Scratcher.js?v5-1"></script>
+<script src="js/core/Background.js?v5-1"></script>
+<script src="js/core/ImageBox.js?v5-1"></script>
+<script src="js/core/PayoffsUI.js?v5-1"></script>
 
 <!-- Simulations -->
-<script src="js/sims/Splash.js?v5"></script>
-<script src="js/sims/PD.js?v5"></script>
-<script src="js/sims/Iterated.js?v5"></script>
-<script src="js/sims/Tournament.js?v5"></script>
-<script src="js/sims/SandboxUI.js?v5"></script>
+<script src="js/sims/Splash.js?v5-1"></script>
+<script src="js/sims/PD.js?v5-1"></script>
+<script src="js/sims/Iterated.js?v5-1"></script>
+<script src="js/sims/Tournament.js?v5-1"></script>
+<script src="js/sims/SandboxUI.js?v5-1"></script>
 
 <!-- Slides -->
-<script src="js/slides/0_Slides_Intro.js?v5"></script>
-<script src="js/slides/1_Slides_OneOff.js?v5"></script>
-<script src="js/slides/2_Slides_Iterated.js?v5"></script>
-<script src="js/slides/3_Slides_Tournament.js?v5"></script>
-<script src="js/slides/4_Slides_Evolution.js?v5"></script>
-<script src="js/slides/5_Slides_Distrust.js?v5"></script>
-<script src="js/slides/6_Slides_Noise.js?v5"></script>
-<script src="js/slides/7_Slides_Sandbox.js?v5"></script>
-<script src="js/slides/8_Slides_Conclusion.js?v5"></script>
-<script src="js/slides/9_Slides_Credits.js?v5"></script>
+<script src="js/slides/0_Slides_Intro.js?v5-1"></script>
+<script src="js/slides/1_Slides_OneOff.js?v5-1"></script>
+<script src="js/slides/2_Slides_Iterated.js?v5-1"></script>
+<script src="js/slides/3_Slides_Tournament.js?v5-1"></script>
+<script src="js/slides/4_Slides_Evolution.js?v5-1"></script>
+<script src="js/slides/5_Slides_Distrust.js?v5-1"></script>
+<script src="js/slides/6_Slides_Noise.js?v5-1"></script>
+<script src="js/slides/7_Slides_Sandbox.js?v5-1"></script>
+<script src="js/slides/8_Slides_Conclusion.js?v5-1"></script>
+<script src="js/slides/9_Slides_Credits.js?v5-1"></script>
 
 <!-- Main Code -->
-<script src="js/main.js?v5"></script>
+<script src="js/main.js?v5-1"></script>

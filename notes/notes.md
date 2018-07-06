@@ -1,14 +1,14 @@
-**"The Evolution of Trust"**
+**"A Evolução da Confiança"**
 
-This interactive guide is heavily based off Robert Axelrod's groundbreaking 1984 book, [The Evolution of Cooperation](https://www.amazon.com/Evolution-Cooperation-Revised-Robert-Axelrod/dp/0465005640)! I was also heavily inspired by his 1997 sequel, [The Complexity of Cooperation](http://press.princeton.edu/titles/6144.html), and Robert Putnam's 2000 book on America's declining "social capital", [Bowling Alone](http://bowlingalone.com/).
+Este guia interativo está fortemente baseado no livro inovador 1984 de Robert Axelrod, [The Evolution of Cooperation](https://www.amazon.com/Evolution-Cooperation-Revised-Robert-Axelrod/dp/0465005640)! Eu também fui fortemente inspirado em sua sequência de 1997, [The Complexity of Cooperation](http://press.princeton.edu/titles/6144.html), e o livro dos anos 2000 do Robert Putnam sobre o declínio do "capital social" dos Estados Unidos, [Bowling Alone](http://bowlingalone.com/).
 
-yes i'm a bookworm nerd, plz don't bully me
+Sim, eu sou um nerd leitor ávido, favor não me intimidar.
 
-**"Fewer and fewer people say they trust each other"**
+**"Menos e menos pessoas dizem que confiam uns nos outros"**
 
-To see a thorough statistical take on this, check out [Our World In Data](https://ourworldindata.org/trust). Mmmm stats~
+Para ver uma avaliação estatística completa, veja [Nosso Mundo em Dados](https://ourworldindata.org/trust). Hummm statísticas!
 
-**"The Game of Trust"**
+**"O Jogo da Confiança"**
 
 This game is also known in game theory as the infamous *Prisoner's Dilemma*. The Prisoner's Dilemma is named after a story where two suspects can either squeal on their partner-in-crime ("cheat"), or stay silent ("cooperate"). I chose not to do this story because 1) in this case, both players "cooperating" would be bad for society, and 2) it's unrealistic, everyone knows that snitches get stitches
 
@@ -16,7 +16,7 @@ This game is also known in game theory as the infamous *Prisoner's Dilemma*. The
 
 In the repeated game of trust (also known as *Iterated Prisoner's Dilemma*), it's important that neither player knows *when* the last round is. Why? Think about it - on the last round, both players would know their action has no consequence, so they'd both cheat. But that means in the second-last round, their actions can't change the next round, so they'd also both cheat. But that means in the third-last round... etc etc.
 
-**"Copycat"**
+**"Imitador" (do inglês, Copycat)**
 
 This strategy is better known in game theory as *Tit For Tat*. It was created by Anatol Rapoport in 1980, for Robert Axelrod's game theory tournament. I chose not to use the name "Tit For Tat" because 1) it *sounds* mean, although it's a nice & fair strategy, and 2) a lot of the public have already heard about Tit For Tat, so if I used that name, players might just place their bets on this character because they've already heard of "Tit For Tat".
 
@@ -60,7 +60,7 @@ Because, contrary to popular belief, coming up with Win-Win solutions is hard, t
 
 Anyway. Exaggerations aside, I strongly believe "Win-Win" / "Non-Zero-Sum" is something we all urgently need -- in our personal lives, social lives, and _definitely_ political lives.
 
-**"Copykitten"**
+**"Imitadorzinho" (do inglês, Copykitten)**
 
 Just like how Copycat's original name was Tit For Tat, Copykitten's original name is *Tit For Two Tats*. Same rule: Cooperate, unless the other players cheats *twice* in a row.
 
